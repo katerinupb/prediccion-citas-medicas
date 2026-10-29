@@ -40,8 +40,8 @@ st.set_page_config(
 )
 
 # Recuperar el modelo entrenado
-with open(carpeta / "modelo_citas_medicas.pkl", "rb") as archivo:
-    modeloGB, labelencoder, variables = pickle.load(archivo)
+#with open(carpeta / "modelo_citas_medicas.pkl", "rb") as archivo:
+    #modeloGB, labelencoder, variables = pickle.load(archivo)
 
 # Cargar CSS e insertar la imagen de fondo para que funcione en Streamlit Cloud
 estilos = (carpeta / "estilos.css").read_text(encoding="utf-8")
