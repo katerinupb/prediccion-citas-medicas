@@ -49,7 +49,7 @@ carpeta = Path(__file__).resolve().parent
 with open(carpeta / 'modelo_citas_medicas.pkl', 'rb') as archivo:
     modeloGB, labelencoder, variables = pickle.load(archivo)
 
-"""## **Interfaz**"""
+# INTERFAZ
 
 # ENCABEZADO
 
