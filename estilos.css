@@ -1,0 +1,30 @@
+/* Colores y fondo general de la aplicación */
+.stApp {
+    background-color: #F4FAFC;
+    color: #173B50;
+}
+
+/* Encabezado principal con imagen médica */
+.encabezado {
+    background-image: url("images/fondo_medico.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    padding: 55px 35px;
+    margin-bottom: 25px;
+}
+
+/* Título principal */
+.encabezado h1 {
+    color: #12465B;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Subtítulo */
+.encabezado p {
+    color: #266A7B;
+    font-size: 17px;
+    font-weight: 500;
+}
