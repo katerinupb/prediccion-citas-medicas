@@ -85,6 +85,9 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
+st.caption("Herramienta académica en desarrollo. Las predicciones tienen limitaciones "
+           "de precisión y no deben utilizarse como único criterio para decisiones operativas.")
+
 # FORMULARIO
 
 # Sección 1. Información del paciente
