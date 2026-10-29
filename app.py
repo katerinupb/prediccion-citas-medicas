@@ -217,9 +217,13 @@ if st.button("🔍 Predecir estado de la cita"):
     resultado = datos.copy()
     resultado["Predicción"] = estado_predicho
 
-    # Mostrar la tabla con el resultado
-    st.subheader("Predicciones")
-    st.dataframe(resultado, hide_index=True, use_container_width=True)
+    # Mostrar el resultado de la predicción
+    st.subheader("Resultado de la predicción")
+    st.success(f"Estado predicho de la cita: {estado_predicho}")
+    
+    # Mostrar los datos utilizados para la predicción
+    st.markdown("**Datos utilizados para la predicción**")
+    st.dataframe(datos, hide_index=True, use_container_width=True)
 
 # Informar sobre el desempeño del modelo
 st.warning(
